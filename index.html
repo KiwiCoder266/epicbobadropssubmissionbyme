@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
         * {
             font-family: monospace;
             color: #3A86FF;
         }
         .logo {
+            height:fit;
             display: flex;
             align-items: center;
             justify-content: left;
@@ -23,6 +24,7 @@
         }
         .homepage {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: left;
             padding-left: 40px;
@@ -40,27 +42,26 @@
         }
         .subtitle {
             min-width: 100vw;
-            position: absolute;
         }
-    </style>
+</style>
 </head>
 <body>
-    <div class="logo">
-        <img src="TrackBase.svg">
-    </div>
-    <div class="homepage">
-        <div class="subtitle">
-            <h1>Models</h1>
-        </div>
-        <div class="models">
-            <div class="model_plate">
-                <img src="coaster_images/b&m_invert.jpg">
-                <h1>B&M Inverted Coaster</h1>
-                <p>The B&M Inverted coaster first appeared at Alton Towers Resort
+<div class="logo">
+<img src="TrackBase.svg">
+</div>
+<div class="homepage">
+<div class="subtitle">
+<h1>Models</h1>
+</div>
+<div class="models">
+<div class="model_plate">
+<img src="coaster_images/b&m_invert.jpg">
+<h1>B&M Inverted Coaster</h1>
+<p>The B&M Inverted coaster first appeared at Alton Towers Resort
                     as the coaster Nemesis (now known as nemesis reborn - shown above)
-                </p>
-            </div>
-        </div>
-    </div>
+</p>
+</div>
+</div>
+</div>
 </body>
 </html>
