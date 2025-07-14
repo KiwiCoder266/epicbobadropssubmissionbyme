@@ -23,6 +23,7 @@
             max-width: 559px;
             max-height: 143.583px;
             max-width: 50%;
+            min-width: 363.5px;
         }
         .homepage {
             display: flex;
@@ -62,6 +63,11 @@
         .caption {
             padding: 0 15px;
         }
+        @media screen and (max-width: 760px) {
+            .models {
+                grid-template-columns: auto auto;
+            }
+        }
 </style>
 </head>
 <body>
@@ -73,7 +79,7 @@
 <h1>Models</h1>
 </div>
 <div class="models">
-<div class="model_plate">
+<div class="model_plate" id="1">
 <img src="coaster_images/b&m_invert.jpg" class="model_image">
 <div class="caption">
     <h1>B&M<br>Inverted Coaster</h1>
@@ -82,7 +88,7 @@
 </p>
 </div>
 </div>
-<div class="model_plate">
+<div class="model_plate" id="2">
 <img src="coaster_images/b&m_invert.jpg" class="model_image">
 <div class="caption">
     <h1>B&M Inverted Coaster</h1>
@@ -91,7 +97,7 @@
 </p>
 </div>
 </div>
-<div class="model_plate">
+<div class="model_plate" id="3">
 <img src="coaster_images/b&m_invert.jpg" class="model_image">
 <div class="caption">
     <h1>B&M Inverted Coaster</h1>
