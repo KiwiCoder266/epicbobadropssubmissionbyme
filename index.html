@@ -7,19 +7,60 @@
     <style>
         * {
             font-family: monospace;
+            color: #3A86FF;
         }
         .logo {
             display: flex;
             align-items: center;
+            justify-content: left;
         }
         .logo img {
-            max-width: 20vw;
+            padding: 40px;
+            padding-bottom: 20px;
+            max-width: 559px;
+            max-height: 143.583px;
+            max-width: 50%;
+        }
+        .homepage {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 40px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        .models {
+            display: grid;
+            grid-column: auto;
+        }
+        .model_plate {
+            background-color: rgb(223, 223, 223);
+            width: 31.7vw;
+        }
+        .subtitle {
+            min-width: 100vw;
+            position: absolute;
         }
     </style>
 </head>
 <body>
     <div class="logo">
         <img src="TrackBase.svg">
+    </div>
+    <div class="homepage">
+        <div class="subtitle">
+            <h1>Models</h1>
+        </div>
+        <div class="models">
+            <div class="model_plate">
+                <img src="coaster_images/b&m_invert.jpg">
+                <h1>B&M Inverted Coaster</h1>
+                <p>The B&M Inverted coaster first appeared at Alton Towers Resort
+                    as the coaster Nemesis (now known as nemesis reborn - shown above)
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
